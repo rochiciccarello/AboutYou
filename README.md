@@ -1,7 +1,5 @@
 # Semantic tags of HTML5
 
-https://rochiciccarello.github.io/AboutYou/
-
 This example uses the following tags:  
 ```html
 <header>
