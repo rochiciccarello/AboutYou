@@ -1,0 +1,19 @@
+@import "./variables";
+
+
+/*Contacto*/
+
+.contacto{
+    &__titulos {
+      color: $color-verde;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 25px;
+    
+  }
+
+  &__text{
+    text-align: center;
+} 
+}
