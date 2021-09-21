@@ -68,4 +68,34 @@
             @include fondo_imag(100%, 600px, cover, center, no-repeat)
         }
     }
-} 
+}
+
+.error{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, $color-verde, $color-rosa);
+    position: absolute;
+    top:50%;
+    text-align: center;
+    transform: translateY(-50%); 
+        &__text{
+            color:#343434 ;
+            transform: translateY(50%); 
+        }
+
+    &__titulo{
+        font-size: 160px;
+        font-family: "montserrat",sans-serif;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 20px;
+        background: url(../images/webdesign.jpg) center no-repeat;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    &__link{
+        color: $color-white;
+    }
+    
+}
